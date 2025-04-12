@@ -1,0 +1,15 @@
+provider "aws" {
+  region     = "us-east-1"
+  access_key = "your id "
+  secret_key = "7UZk6x0pwb/1xBwOdIr"YOUR ID"BwoIL9Z/C9raj"
+}
+
+resource "aws_instance" "server" {
+  ami           = "your ami id"
+  instance_type = "t2.micro"
+  count         = 2
+
+  tags = {
+    Name = "flipkart"
+  }
+}
