@@ -1,0 +1,19 @@
+"Automated EC2 Provisioning with Terraform"
+1. sudo apt update ( update the ubuntu server)
+2.Install required dependencies
+sudo apt install -y gnupg software-properties-common curl
+3.Add HashiCorp's GPG key
+curl -fsSL https://apt.releases.hashicorp.com/gpg | sudo apt-key add -
+4. Add the official HashiCorp Debian repository
+sudo apt-add-repository "deb [arch=amd64] https://apt.releases.hashicorp.com $(lsb_release -cs) main"
+5. Update package lists again after adding the repository
+sudo apt update
+6.Install Terraform
+sudo apt install terraform
+7. Create one file named instance .tf
+sudo nano instance.tf
+8. Paste the code in the give terraform.tf file
+
+
+
+
