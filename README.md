@@ -1,12 +1,14 @@
 **IaC: Launching EC2 Instances with Terraform**
-**Tools used:**
-**Github**
-**Aws**
-**Terraform**
-**Linux**
+Tools used:
+Github
+Aws
+Terraform
+Linux
 
 **STEP -1** Install all the packages and run all the commands provided in the commands.txt file 
+
 **step -2** Terraform init--initializes the working directory with Terraform configuration files and downloads required providers.
+
 
 <img width="959" alt="1" src="https://github.com/user-attachments/assets/cb9796ba-c6c5-46ad-8f2d-ef83ce553bd2" />
 
